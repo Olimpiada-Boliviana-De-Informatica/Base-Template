@@ -169,6 +169,8 @@ EOF
       cat <<EOF > problem.json
 {
   "name": "$task_name",
+  "header": "Problem A",
+  "balloonColor": "#5B9BD5",
   "title": "Problem name",
   "type": "Batch",
   "has_grader": false,
